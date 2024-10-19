@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Standard metadata-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Pizza ordering website">
+        <meta name="robots" content="nofollow, noindex">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Quicksand&display=swap" rel="stylesheet">
+
+        <title>Welcome to Pizza's Home!</title>
+        <!--Link our stylesheet, jquery and javascript-->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body class="Home">
+        <!--The header has our proud logo (open licence on unsplash.com) and a nav menu to navigate the site-->
+        <header>
+            <div>
+                <img src="./img/logo.avif" alt="Perfectly cooked pizza.">
+            </div>            
+            <nav>
+                <menu>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="order.html">ORDER NOW!</a>
+                    </li>
+                </menu>
+            </nav>
+        </header>
+
+        
+        <main>
+            <!--The Masthead is another staple that will be shared between pages. so it is given a handy class-->
+            <section class="Masthead">
+                <div>
+                    <h1>Universal Home of Pizza</h1>
+                </div>
+            </section>
+
+            <!--I've cascaded a couple divs so that there would be a flex container to separate the aside content(delivery orders) from the main content of the page. I found that having the aside, aside from the main demanded too much attention for the short list of items at our disposal.-->
+            <div class="Menu">
+                <div class="EatInMenu">
+                    <section>
+                        <h2>Enjoy our take out specials!</h2>
+                        <div class="EatInPizza">
+                            <div>
+                                <figure>
+                                    <img src="./img/pizza-1.jpg" alt="Pizza with Bacon mushroom with alfredo sauce">
+                                    <figcaption>Alfredo delight!</figcaption>
+                                </figure>
+                                <button id="btn-1">Add to cart: $26.99</button>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./img/pizza-2.jpg" alt="Peperoni Pizza">
+                                    <figcaption>A familiar tasting pie.</figcaption>
+                                </figure>
+                                <button id="btn-2">Add to cart: $22.99</button>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./img/pizza-3.jpg" alt="Artisan thin crust pizza. ">
+                                    <figcaption>Our more rustic style.</figcaption>
+                                </figure>
+                                <button id="btn-3">Add to cart: $26.99</button>
+                            </div>
+                        </div><!--Just some content being thrown in here-->
+                        <h3>For when the rest just wont do</h3>
+                        <p>Universal Home of Pizza is dedicated to Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, aliquam, illum tempora blanditiis cumque ipsum quaerat iste error voluptatum reiciendis dolorum excepturi? Incidunt cumque libero ducimus eveniet asperiores et voluptatum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ex porro voluptatem, hic ipsam nihil officia illo, corrupti eos tenetur laudantium et omnis consectetur iure illum nam. Cumque, ipsa sint!</p>
+                    </section>
+                    <section>
+                        <h2>Try our always fresh slices today!</h2>
+                        <div class="EatInSlices">
+                            <div>
+                                <figure>
+                                    <img src="./img/slice-1.jpg" alt="Peperoni slice">
+                                    <figcaption>Peperoni slices.</figcaption>
+                                </figure>
+                                <button id="btn-4">Add to cart: $5.49</button>
+                            </div>
+                            <div>
+                                <figure>
+                                    <img src="./img/slice-2.jpg" alt="Cheese slice">
+                                    <figcaption>Cheese slices.</figcaption>
+                                </figure>
+                                <button id="btn-5">Add to cart: $4.99</button>
+                            </div>
+                        </div>
+                        <p>Additional toppings only $1.89 more.</p>
+                    </section>
+                </div>
+                <aside class="DeliveryMenu">
+                    <section>
+                        <h2>Delivery specials include</h2>
+                        <div>
+                            <figure>
+                                <img src="./img/pizza-4.jpg" alt="Supreme Pizza">
+                                <figcaption>Supreme Pizza.</figcaption>
+                            </figure>
+                            <button id="btn-6">Add to cart: $24.99</button>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="./img/pizza-5.jpg" alt="Supreme Artisan Pizza">
+                                <figcaption>Supreme Artisan Pizza.</figcaption>                                
+                            </figure>
+                            <button id="btn-7">Add to cart: $24.99</button>
+                        </div>
+                    </section>
+                </aside>
+            </div>
+        </main>
+
+        
+        <!--The footer has important links for interacting with the company itself as more than just a consumer So those links are sandwiched by some of our proud employees-->
+        <footer>
+            <section>
+                <h6>Universal Home of Pizza</h6>
+                <figure>
+                    <img src="./img/delivery-1.jpg" alt="Pizza delivery artist">
+                    <figcaption>Your satisfaction is our guarantee!</figcaption>
+                </figure>
+            </section>
+            <nav>
+                <menu>
+                    <li><a href="#">Job Offers</a></li>
+                    <li><a href="#">About UHOP</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Disneyland Expansion Packs</a></li>
+                    <li><a href="#">Discount Pizza Schedule</a></li>                    
+                </menu>
+            </nav>
+            <section>
+                <h6>Hop on over today!</h6>
+                <figure>
+                    <img src="./img/delivery.jpg" alt="Pizza delivery artist">
+                    <figcaption><a href="order.html">Place your order today!</a></figcaption>
+                </figure>
+            </section>
+        </footer>
+    </body>
+</html>
